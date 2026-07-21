@@ -10,7 +10,7 @@ sig1=[0.1, 0.01, 0.001, 0.0001, 0.00001, 0.000001, 0.0000001, 0.00000001] ;The s
 sig2=sig1
 box = 2. ;The box size used for the search window. (can be changed)
 sa = 5. ;;the Signal averaging amount (can be changed)
-save_path = '/data/Heine/work/Erin/Do_All/R01_U01_Cview_List/DAT/'
+save_path = '/data/Heine/work/Erin/Do_All/R01_U01_Cview_List/DAT/'; a new location of your choice to store the information output from the alogrithm
 nfile = save_path+'PDA_SA5_Box2_20260721_Hologic_DBT.dat'
 
 m1 = n_elements(sig1)
