@@ -1,5 +1,5 @@
 .run /data/Heine/work/Erin/Do_All/SDN_CVIEW_2DINT_2025/Programs/GITHUB_CODE/local_compile.pro ;<-- RUN THE LOCAL COMPILE!
-file='/data/Heine/work/Erin/Do_All/R01_U01_Cview_List/DAT/Measures_DS426_20200107.dat';;This is a folder that we created with the .dcm images saved in gray-scale floating .tiff format the masks (0/1) images that helps us locate the breast area saved in .png format.
+file='/data/Heine/work/Erin/Do_All/R01_U01_Cview_List/DAT/Measures_DS426_20200107.dat';;A dat file that holds IDNs (a string array with our study ID names).
 restore, file
 
 front_path = '/data/Heine/work/Erin/Do_All/R01_U01_Cview_List/IMAGES/';;This is a folder that we created with the .dcm images saved in gray-scale floating .tiff format the masks (0/1) images that helps us locate the breast area saved in .png format.
