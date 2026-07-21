@@ -54,7 +54,6 @@ for i=0, n-1 do begin &$
 		nrsa2 = nrsa1 &$
 		nrsa3 = nrsa1 &$
 		nrsa4 = nrsa1 &$
-		sa = 100. &$ ;;
 		for j = 0, sa-1 do begin &$
 		  nrsa1 = nrsa1 + (randomn(seed, sz[1], sz[2], /double)*sim1)^2. &$ ;;p = 1 (p can change)
 		  nrsa2 = nrsa2 + (randomn(seed, sz[1], sz[2], /double)*sqrt(sim1))^2. &$ ;; = p = 1/2 (p can change)
