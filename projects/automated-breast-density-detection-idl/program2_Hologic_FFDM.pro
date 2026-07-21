@@ -72,7 +72,7 @@ for i=0, n-1 do begin &$
 		;*RAW images have an edge effect, this get_dense_FFDM_raw uses a slightly more eroded image to get around this issue.
 		pda[i, *, *, 0] = get_dense_FFDM_raw(sim1, full, lseg, nrsa1, sig1, sig2, var_r1, box, sa, flag) &$
 		pda[i, *, *, 1] = get_dense_FFDM_raw(sim1, full, lseg, nrsa2, sig1, sig2, var_r2, box, sa, flag) &$ ;replace DF1 with noise1
-		;im1 = get_dense_return_image_2025(sim1, full, nrsa1, sig1[1], sig2[1], var_r, box, sa, flag) &$
+		;im1 = get_dense_return_image_2025(sim1, full, nrsa1, sig1[1], sig2[1], var_r, box, sa, flag) &$;<- this program can return as the output if you want to look at a specific sigma1/sigma2 density detection;
 		
     	pda[i, *, *, 2] = get_dense_2025(sim2, full, nrsa3, sig1, sig2, var_p1, box, sa, flag) &$
     	pda[i, *, *, 3] = get_dense_2025(sim2, full, nrsa4, sig1, sig2, var_p2, box, sa, flag) &$
